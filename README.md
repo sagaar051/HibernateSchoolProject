@@ -28,6 +28,6 @@ Demonstrates basic CRUD operations and HQL queries with **named and positional p
 
 ## Setup Instructions
 
-1. **Clone the repository**
+ **Clone the repository**
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/sagaar051/HibernateSchoolProject>
