@@ -1,21 +1,33 @@
-# HibernateSchoolProject
+# Student & Teacher Management System
 
-## Overview
-This is a Java Hibernate project that demonstrates CRUD (Create, Read, Update, Delete) operations on **Student** and **Teacher** entities using **PostgreSQL**. The project is modular, with separate methods for inserting, updating, deleting, and fetching records. It is designed for learning and testing Hibernate ORM features in a simple school management context.
+A Java project using **Hibernate ORM** and **PostgreSQL** for managing Students and Teachers.  
+Demonstrates basic CRUD operations and HQL queries with **named and positional parameters**.
+
+---
 
 ## Features
-- Insert new Student and Teacher records
-- Update existing Student and Teacher records
-- Delete Student and Teacher records
-- Fetch any entity by ID using a generic method
-- Proper transaction handling with commit and rollback
-- Modular and reusable code structure
 
-## Technologies Used
+- Manage **Students**: insert, update, delete, view, search by age
+- Manage **Teachers**: insert, update, delete, view
+- Use **HQL Queries**:
+  - **Positional Parameters**: `s1.age = ?1`
+  - **Named Parameters**: `s1.age = :age`
+- Interactive **console menu** for easy operation
+
+---
+
+## Technologies
+
 - Java 17+
 - Hibernate ORM 6.x
-- Jakarta Persistence API
-- PostgreSQL 42.x JDBC Driver
-- Maven for project management
+- PostgreSQL
+- Maven
+- Eclipse/IntelliJ IDE
 
-## Project Structure
+---
+
+## Setup Instructions
+
+1. **Clone the repository**
+```bash
+git clone <your-repo-url>
